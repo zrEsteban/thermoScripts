@@ -17,5 +17,9 @@ def c2K(T):
 
 
 #8<------------------------------------------------------------------------
-## Para encontrar propiedades termodinámicas, por ejemplo entalpía.
+## Para encontrar propiedades termodinámicas, por ejemplo entalpía del agua a 3MPa y 350°C.
 
+P = 3*10**6
+T = c2K(350)
+h = PropsSI("H","P",P,"T",T,"Water")
+print(h)
