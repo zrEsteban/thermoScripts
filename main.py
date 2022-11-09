@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import CoolProp
 from CoolProp.CoolProp import PropsSI
 
+print(">Main<")
 
 #8<------------------------------------------------------------------------
 ## Para pasar de grados Celsius a grados Kelvin
@@ -16,5 +17,5 @@ def c2K(T):
 
 
 #8<------------------------------------------------------------------------
+## Para encontrar propiedades termodinámicas, por ejemplo entalpía.
 
-print(">Main<")
